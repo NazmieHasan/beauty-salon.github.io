@@ -334,10 +334,10 @@ fieldset[disabled] .btn-primary.focus {
 footer { 
     background-color: #000000;
     color: #d3d3d3;
-    padding: 5px 0 5px;
+    padding: 25px 0 25px;
 }
 .footer-up-left, .footer-up-center, .footer-up-right {
-   margin-bottom: 5px;
+   margin-bottom: 15px;
 }
 .footer-up-left .list-inline>li>h5, .footer-up-center h5, .footer-up-right h5, .footer-info-site {
     font-weight: normal;
