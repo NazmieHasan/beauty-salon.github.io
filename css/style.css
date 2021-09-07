@@ -243,52 +243,46 @@ fieldset[disabled] .btn-primary.focus {
     padding: 0;
 }
 .promotion {
-    background: #717a7f;
-    padding-bottom: 5px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../images/promotion-makeup.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
 }
 .promotion .row {
     margin-right: 0;
     margin-left: 0;
 }
-.promotion img {
-    margin-top: 5px; 
-    margin-bottom: 5px;
-    padding: 0;
-    border: none;
-}
 .promo-title {
-    color: #ffffff;
-    letter-spacing: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 32px;
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    letter-spacing: 5px;
+    color: #ffffff;
 }
 .promo-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold; 
+    letter-spacing: 2px;
+    word-spacing: 4px;
     color: #ffffff;
     background: #8b0000;
-    letter-spacing: 2px;
-    word-spacing: 4px; 
     border: 1px solid #8b0000;
-    border-radius: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px; 
-    font-weight: bold; 
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 20px;
+    border-radius: 5px;      
 }
 .promo-email {
-    color: #ffffff;
-    word-spacing: 5px;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    word-spacing: 5px;
+    color: #ffffff;
 }
 .promo-email .fa-envelope {
-   font-size: 15px;
-   margin-right: 3px;
+    margin-right: 3px;
+    font-size: 15px;
 }
 .promo-phone .btn { 
     padding: 8px 15px;
@@ -297,19 +291,19 @@ fieldset[disabled] .btn-primary.focus {
     font-weight: bold;
 }
 .promo-phone .btn:hover{ 
-    background: #8b0000;
     color: #ffffff;
+    background: #8b0000;
 }
 .promo-company-text{  
-    color: #ffffff;
-    word-spacing: 5px;
     letter-spacing: 1px;
-    padding: 5px;  
+    word-spacing: 5px;
+    color: #ffffff; 
 }
 .promo-company-text h4 {
     font-weight: bold;
-    margin-top: 2px;
-    margin-bottom: 2px;
+}
+.promo-company-text .h4-last {
+    margin-bottom: 40px;
 }
 /* article 2 end */
 /* article 3 */
