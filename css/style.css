@@ -255,8 +255,8 @@ fieldset[disabled] .btn-primary.focus {
     margin-left: 0;
 }
 .promo-title {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 24px;
+    margin-bottom: 10px;
     font-size: 32px;
     font-weight: bold;
     letter-spacing: 5px;
@@ -282,7 +282,7 @@ fieldset[disabled] .btn-primary.focus {
 }
 .promo-email .fa-envelope {
     margin-right: 3px;
-    font-size: 15px;
+    font-size: 16px;
 }
 .promo-phone .btn { 
     padding: 8px 15px;
@@ -300,10 +300,8 @@ fieldset[disabled] .btn-primary.focus {
     color: #ffffff; 
 }
 .promo-company-text h4 {
-    font-weight: bold;
-}
-.promo-company-text .h4-last {
     margin-bottom: 40px;
+    font-weight: bold;
 }
 /* article 2 end */
 /* article 3 */
